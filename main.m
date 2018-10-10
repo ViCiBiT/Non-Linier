@@ -5,8 +5,7 @@ clc;
 
 init_x1 =[-6,-3,-2,0,2,3,6]          %x axis
 init_x2 =init_x1/3                   %y axis
-
-%for a=[-2:1:2]                      %Loop for some initial condition
+				                     %Loop for some initial condition
 for i=1:length(init_x1)
 x0=[init_x1(i) init_x2(i)]           %Initial condition
 plot (init_x1,init_x2,'O');          %mark the dot as initial point                                      
